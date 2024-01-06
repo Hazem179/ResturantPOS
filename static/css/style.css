@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+body {
+  font-family: "Cairo", sans-serif;
+  overflow-x: hidden;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  border: 1px solid #6b6b6b;
+}
+.navbar-nav {
+  gap: 10px;
+}
+.navbar-brand.logo img {
+  height: 80px;
+  transform: scale(1.6);
+}
+.nav-item a {
+  color: #fff;
+  font-size: 0.8rem;
+}
+.nav-link.active {
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: #fff;
+}
+.boxes .shadow {
+  cursor: pointer;
+}
+.boxes {
+  margin-top: 120px;
+}
+.custom-shadow {
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.4);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.edit,
+.delete {
+  cursor: pointer;
+  display: inline-flex;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+
+.min-height-100vh {
+  min-height: 100vh;
+}
+#invoice .logo {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  display: block;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+.has-search {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  direction: rtl;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+  left: 10px;
+}
+.categories {
+  height: 400px;
+  overflow-y: auto;
+}
+.categories > * {
+  cursor: pointer;
+}

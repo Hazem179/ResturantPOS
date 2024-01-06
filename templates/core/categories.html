@@ -1,0 +1,220 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="py-5 row">
+<div class="col-12 ms-2 me-2">
+  <h3 class="text-center fw-bold fs-4 my-4">الأصناف</h3>
+  <div class="table-responsive ">
+    <div class="btn btn-success d-inline-flex gap-2 my-4" data-bs-toggle="modal" data-bs-target="#AddCategoryModal">
+      <i class="bi bi-plus-circle"></i>
+      <span>اضافة فئات جديدة</span>
+    </div>
+    <table class="table table-striped table-bordered shadow-lg text-center" style="min-width: 800px;">
+      <thead>
+        <tr>
+          <th>م</th>
+          <th>إسم الفئة</th>
+          <th>خيارات</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for category in categories %}
+        <tr>
+          <td>{{category.id}}</td>
+          <td>{{category.name}}</td>
+          <td>
+            <span class="delete bg-danger" data-bs-toggle="modal" data-bs-target="#DeleteCategoryModal"  data-category-id="{{category.id}}">
+              <i class="bi bi-trash3"></i>
+            </span>
+            <span class="edit bg-info" data-bs-toggle="modal" data-bs-target="#editCategoryModal"  data-category-id="{{category.id}}">
+              <i class="bi bi-pencil"></i>
+            </span>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <nav aria-label="Page navigation example" dir="rtl">
+      <ul class="pagination justify-content-center my-5">
+        <li class="page-item"><a class="page-link" href="#">السابق</a></li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">التالي</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+</div>
+<!-- Add Category Modal -->
+<div class="modal fade" id="AddCategoryModal" tabindex="-1" aria-labelledby="CategoryModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="CategoryModalLabel">إضافة فئة جديدة</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="needs-validation" id = "add_category" novalidate>
+          <input type="hidden" name = "type" value="add">
+          {% csrf_token %}
+          <input class="form-control form-control-lg mb-3" name = "category_name" type="text" placeholder=" اسم الفئة"
+          aria-label=".form-control-lg example" required />
+          <div class="invalid-feedback">
+            يجب إضافة اسم الفئة للاضافة
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          الغاء
+        </button>
+        <button type="submit" form="add_category" class="btn btn-primary" >حفظ</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Edit Category Modal -->
+<div class="modal fade" id="editCategoryModal" tabindex="-1" aria-labelledby="editCategoryModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="editCategoryModalLabel">
+          تعديل إسم الفئة
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="needs-validation" id = "edit_category" novalidate>
+          <input type="hidden" name = "type" value="edit">
+          <input type="hidden" name="category_id" id="category_id">
+          {% csrf_token %}
+          <input class="form-control form-control-lg mb-3" id = "edit_category_name" name = "edit_category_name" type="text" placeholder=" اسم الفئة"
+          aria-label=".form-control-lg example" required />
+          <div class="invalid-feedback">
+            يجب إضافة اسم الفئة للاضافة
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          الغاء
+        </button>
+        <button type="submit" form="edit_category" class="btn btn-primary" >حفظ</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Dlete Category Modal -->
+<div class="modal fade" id="DeleteCategoryModal" tabindex="-1" aria-labelledby="DeleteCategoryModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="DeleteCategoryModalLabel">حذف فئة</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>هل أنت متأكد من حذف الفئة</p>
+        {% csrf_token %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          الغاء
+        </button>
+        <button type="button" class="btn btn-danger confirmDelete">حذف</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $("#add_category").submit(function (event) {
+      event.preventDefault();
+      var form = this
+      if ($("#add_category").valid()) {
+        var formData = $(this).serialize();
+        $.ajax({
+          type: "POST",
+          url: window.location.href,
+          data: formData,
+          success: function (response) {
+            // Handle success response
+            window.location.reload();
+          },
+          error: function (error) {
+            // Handle error response
+            console.error(error);
+          }
+        });
+      } else {
+        $(this).addClass('was-validated');
+      }
+    });
+
+    $('.edit').on('click', function () {
+      var categoryId = $(this).data('category-id');
+      $("#category_id").val(categoryId);
+      $.ajax({
+          type: "GET",
+          url: window.location.href,
+          data: {'category_id': categoryId,
+                'type': 'get_data'},
+          success: function (response) {
+            // Handle success response
+            $("#edit_category_name").val(response.category_name);
+          },
+          error: function (error) {
+            console.error(error);
+          }
+        });
+    });
+    $("#edit_category").submit(function (event) {
+      event.preventDefault();
+      var form = this
+      if ($("#edit_category").valid()) {
+        var formData = $(this).serialize();
+        $.ajax({
+          type: "POST",
+          url: window.location.href,
+          data: formData,
+          success: function (response) {
+            // Handle success response
+            window.location.reload();
+          },
+          error: function (error) {
+            // Handle error response
+            console.error(error);
+          }
+        });
+      } else {
+        $(this).addClass('was-validated');
+      }
+    });
+
+    $('.delete').on('click', function () {
+      var categoryId = $(this).data('category-id');
+      $("#category_id").val(categoryId);
+    });
+
+
+    $('.confirmDelete').on('click', function () {
+      var categoryId = $("#category_id").val();
+      $.ajax({
+          type: "POST",
+          url: window.location.href,
+          data: {'category_id': categoryId,
+                'type': 'delete',
+                'csrfmiddlewaretoken': '{{ csrf_token }}'},
+          success: function (response) {
+            window.location.reload();
+          },
+          error: function (error) {
+            console.error(error);
+          }
+        });
+    });
+  });
+</script>
+{% endblock %}

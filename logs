@@ -1,0 +1,1034 @@
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2192
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2243
+D:\Django projects\Restaurant POS\RestaurantPos\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 9, in home
+    return render(request, 'core/base.html')
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core/base.html
+"GET / HTTP/1.1" 500 82988
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 9, in home
+    return render(request, 'base.html')
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET / HTTP/1.1" 500 82769
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 9, in home
+    return render(request, 'base.html')
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET / HTTP/1.1" 500 82769
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 9, in home
+    return render(request, 'base.html')
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET / HTTP/1.1" 500 82769
+D:\Django projects\Restaurant POS\RestaurantPos\RestaurantPos\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 17645
+Not Found: /logo.png
+"GET /logo.png HTTP/1.1" 404 2394
+"GET /static/js/main.js HTTP/1.1" 200 3531
+"GET /static/js/bootstrap.js HTTP/1.1" 200 129775
+"GET /static/css/bootstrap-icons.css HTTP/1.1" 200 108463
+"GET /static/css/bootstrap.css HTTP/1.1" 200 203527
+"GET /static/css/style.css HTTP/1.1" 200 1614
+"GET /static/fonts/bootstrap-icons.woff2 HTTP/1.1" 200 130648
+"GET / HTTP/1.1" 200 21289
+Not Found: /logo.png
+"GET /logo.png HTTP/1.1" 404 2394
+"GET / HTTP/1.1" 200 21289
+Not Found: /logo.png
+"GET /logo.png HTTP/1.1" 404 2394
+"GET / HTTP/1.1" 200 21289
+Not Found: /logo.png
+"GET /logo.png HTTP/1.1" 404 2394
+"GET / HTTP/1.1" 200 21289
+Not Found: /logo.png
+"GET /logo.png HTTP/1.1" 404 2394
+"GET / HTTP/1.1" 200 21289
+Not Found: /logo.png
+"GET /logo.png HTTP/1.1" 404 2394
+"GET / HTTP/1.1" 200 21289
+"GET /static/css/bootstrap.css HTTP/1.1" 200 203527
+"GET /static/css/style.css HTTP/1.1" 200 1614
+"GET /static/js/main.js HTTP/1.1" 200 3531
+"GET /static/css/bootstrap-icons.css HTTP/1.1" 200 108463
+"GET /static/js/bootstrap.js HTTP/1.1" 200 129775
+Not Found: /logo.png
+"GET /logo.png HTTP/1.1" 404 2394
+"GET /static/fonts/bootstrap-icons.woff2 HTTP/1.1" 200 130648
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2403
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET / HTTP/1.1" 200 21289
+Not Found: /logo.png
+"GET /logo.png HTTP/1.1" 404 2394
+"GET / HTTP/1.1" 200 21284
+Not Found: /logo.png
+"GET /logo.png HTTP/1.1" 404 2394
+"GET / HTTP/1.1" 200 21284
+Not Found: /logo.png
+"GET /logo.png HTTP/1.1" 404 2394
+"GET / HTTP/1.1" 200 21284
+Not Found: /logo.png
+"GET /logo.png HTTP/1.1" 404 2394
+"GET / HTTP/1.1" 200 21284
+Not Found: /logo.png
+"GET /logo.png HTTP/1.1" 404 2394
+"GET / HTTP/1.1" 200 21284
+Not Found: /logo.png
+"GET /logo.png HTTP/1.1" 404 2394
+"GET / HTTP/1.1" 200 21284
+"GET /static/css/style.css HTTP/1.1" 200 1614
+"GET /static/js/main.js HTTP/1.1" 200 3531
+"GET /static/css/bootstrap.css HTTP/1.1" 200 203527
+"GET /static/css/bootstrap-icons.css HTTP/1.1" 200 108463
+"GET /static/js/bootstrap.js HTTP/1.1" 200 129775
+Not Found: /logo.png
+"GET /logo.png HTTP/1.1" 404 2394
+"GET /static/fonts/bootstrap-icons.woff2 HTTP/1.1" 200 130648
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2403
+"GET / HTTP/1.1" 200 21290
+"GET /static/logo.png HTTP/1.1" 404 1783
+"GET / HTTP/1.1" 200 21290
+"GET /static/logo.png HTTP/1.1" 404 1783
+"GET / HTTP/1.1" 200 21290
+"GET /static/logo.png HTTP/1.1" 404 1783
+"GET / HTTP/1.1" 200 21290
+"GET /static/logo.png HTTP/1.1" 404 1783
+"GET / HTTP/1.1" 200 21290
+"GET /static/css/bootstrap.css HTTP/1.1" 200 203527
+"GET /static/css/style.css HTTP/1.1" 200 1614
+"GET /static/js/main.js HTTP/1.1" 200 3531
+"GET /static/css/bootstrap-icons.css HTTP/1.1" 200 108463
+"GET /static/logo.png HTTP/1.1" 404 1783
+"GET /static/js/bootstrap.js HTTP/1.1" 200 129775
+"GET /static/fonts/bootstrap-icons.woff2 HTTP/1.1" 200 130648
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2403
+"GET / HTTP/1.1" 200 21297
+"GET /static/images/logo.png HTTP/1.1" 200 101487
+"GET / HTTP/1.1" 200 21297
+"GET / HTTP/1.1" 200 21297
+"GET /static/css/bootstrap.css HTTP/1.1" 200 203527
+"GET /static/css/style.css HTTP/1.1" 200 1614
+"GET /static/js/main.js HTTP/1.1" 200 3531
+"GET /static/css/bootstrap-icons.css HTTP/1.1" 200 108463
+"GET /static/images/logo.png HTTP/1.1" 200 101487
+"GET /static/js/bootstrap.js HTTP/1.1" 200 129775
+"GET /static/fonts/bootstrap-icons.woff2 HTTP/1.1" 200 130648
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2403
+"GET / HTTP/1.1" 200 18668
+"GET / HTTP/1.1" 200 18668
+"GET / HTTP/1.1" 200 18700
+"GET / HTTP/1.1" 200 18700
+"GET / HTTP/1.1" 200 18700
+"GET / HTTP/1.1" 200 18700
+"GET / HTTP/1.1" 200 18700
+"GET / HTTP/1.1" 200 18700
+"GET / HTTP/1.1" 200 18700
+"GET / HTTP/1.1" 200 18700
+"GET / HTTP/1.1" 200 18700
+"GET / HTTP/1.1" 200 18698
+"GET / HTTP/1.1" 200 18698
+"GET / HTTP/1.1" 200 18698
+"GET / HTTP/1.1" 200 18698
+"GET / HTTP/1.1" 200 18698
+"GET / HTTP/1.1" 200 18698
+"GET / HTTP/1.1" 200 18698
+"GET / HTTP/1.1" 200 18698
+"GET / HTTP/1.1" 200 18698
+"GET / HTTP/1.1" 200 18698
+"GET / HTTP/1.1" 200 18698
+"GET / HTTP/1.1" 200 18698
+"GET / HTTP/1.1" 200 18698
+"GET / HTTP/1.1" 200 18697
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 21257
+Not Found: /logo.png
+Not Found: /css/bootstrap.css
+Not Found: /css/bootstrap-icons.css
+Not Found: /css/style.css
+Not Found: /js/bootstrap.js
+"GET /logo.png HTTP/1.1" 404 2394
+Not Found: /js/main.js
+"GET /css/bootstrap.css HTTP/1.1" 404 2421
+"GET /css/bootstrap-icons.css HTTP/1.1" 404 2439
+"GET /js/main.js HTTP/1.1" 404 2400
+"GET /css/style.css HTTP/1.1" 404 2409
+"GET /js/bootstrap.js HTTP/1.1" 404 2415
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 21257
+Not Found: /js/main.js
+"GET /js/main.js HTTP/1.1" 404 2400
+Not Found: /logo.png
+Not Found: /css/bootstrap-icons.css
+Not Found: /css/bootstrap.css
+"GET /logo.png HTTP/1.1" 404 2394
+Not Found: /js/bootstrap.js
+"GET /css/bootstrap-icons.css HTTP/1.1" 404 2439
+Not Found: /css/style.css
+"GET /css/bootstrap.css HTTP/1.1" 404 2421
+"GET /js/bootstrap.js HTTP/1.1" 404 2415
+"GET /css/style.css HTTP/1.1" 404 2409
+"GET / HTTP/1.1" 200 21257
+Not Found: /css/bootstrap.css
+"GET /css/bootstrap.css HTTP/1.1" 404 2421
+Not Found: /css/bootstrap-icons.css
+"GET /css/bootstrap-icons.css HTTP/1.1" 404 2439
+Not Found: /js/bootstrap.js
+"GET /js/bootstrap.js HTTP/1.1" 404 2415
+Not Found: /css/style.css
+Not Found: /js/main.js
+Not Found: /logo.png
+"GET /css/style.css HTTP/1.1" 404 2409
+"GET /js/main.js HTTP/1.1" 404 2400
+"GET /logo.png HTTP/1.1" 404 2394
+"GET / HTTP/1.1" 200 21257
+Not Found: /css/bootstrap.css
+"GET /css/bootstrap.css HTTP/1.1" 404 2421
+Not Found: /css/style.css
+Not Found: /js/bootstrap.js
+"GET /css/style.css HTTP/1.1" 404 2409
+Not Found: /logo.png
+"GET /js/bootstrap.js HTTP/1.1" 404 2415
+Not Found: /css/bootstrap-icons.css
+Not Found: /js/main.js
+"GET /logo.png HTTP/1.1" 404 2394
+"GET /css/bootstrap-icons.css HTTP/1.1" 404 2439
+"GET /js/main.js HTTP/1.1" 404 2400
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 18696
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 10906
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 10906
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2403
+"GET / HTTP/1.1" 200 18696
+"GET / HTTP/1.1" 200 18696
+"GET /static/css/bootstrap.css HTTP/1.1" 200 203527
+"GET /static/images/logo.png HTTP/1.1" 200 101487
+"GET /static/css/bootstrap-icons.css HTTP/1.1" 200 108463
+"GET /static/js/main.js HTTP/1.1" 200 3531
+"GET /static/css/style.css HTTP/1.1" 200 1614
+"GET /static/js/bootstrap.js HTTP/1.1" 200 129775
+"GET /static/fonts/bootstrap-icons.woff2 HTTP/1.1" 200 130648
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2403
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories HTTP/1.1" 301 0
+"GET /categories/ HTTP/1.1" 200 18696
+"GET /categories/ HTTP/1.1" 200 18696
+D:\Django projects\Restaurant POS\RestaurantPos\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 18696
+"GET /categories/ HTTP/1.1" 200 13559
+"GET /categories/ HTTP/1.1" 200 13559
+"GET /categories/ HTTP/1.1" 200 13559
+"GET /categories/ HTTP/1.1" 200 13559
+"GET /categories/ HTTP/1.1" 200 13559
+"GET / HTTP/1.1" 200 18181
+"GET / HTTP/1.1" 200 18181
+"GET /categories/ HTTP/1.1" 200 13559
+"GET /categories/ HTTP/1.1" 200 13563
+"GET /categories/ HTTP/1.1" 200 13563
+"GET /categories/ HTTP/1.1" 200 13563
+"GET /categories/ HTTP/1.1" 200 13563
+"GET /categories/ HTTP/1.1" 200 13591
+"GET /categories/ HTTP/1.1" 200 13591
+"GET /categories/ HTTP/1.1" 200 13591
+"GET /categories/ HTTP/1.1" 200 13591
+"GET /categories/ HTTP/1.1" 200 13591
+"GET /categories/ HTTP/1.1" 200 13591
+"GET /categories/ HTTP/1.1" 200 13591
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/ HTTP/1.1" 200 13591
+"GET /categories/ HTTP/1.1" 200 13601
+"GET /categories/ HTTP/1.1" 200 13601
+"GET /categories/ HTTP/1.1" 200 13601
+"GET /categories/ HTTP/1.1" 200 13601
+"GET /categories/ HTTP/1.1" 200 13613
+"GET /categories/ HTTP/1.1" 200 13613
+"GET /categories/ HTTP/1.1" 200 13608
+"GET /categories/ HTTP/1.1" 200 13608
+"GET /categories/ HTTP/1.1" 200 13613
+"GET /categories/ HTTP/1.1" 200 13617
+"GET /categories/ HTTP/1.1" 200 13617
+"GET /categories/ HTTP/1.1" 200 13617
+"GET /categories/ HTTP/1.1" 200 13617
+"GET /categories/ HTTP/1.1" 200 13617
+"GET /categories/ HTTP/1.1" 200 13617
+"GET /categories/ HTTP/1.1" 200 13617
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+Not Found: /categories/index.html
+"GET /categories/index.html HTTP/1.1" 404 2610
+Not Found: /categories/index.html
+"GET /categories/index.html HTTP/1.1" 404 2610
+"GET /categories/ HTTP/1.1" 200 13617
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /categories/ HTTP/1.1" 200 13617
+"GET /categories/ HTTP/1.1" 200 13617
+"GET /categories/ HTTP/1.1" 200 13617
+"GET /categories/ HTTP/1.1" 200 13594
+"GET /categories/ HTTP/1.1" 200 13607
+"GET /categories/ HTTP/1.1" 200 13607
+"GET /categories/ HTTP/1.1" 200 13607
+"GET /categories/ HTTP/1.1" 200 13607
+"GET /categories/ HTTP/1.1" 200 13607
+"GET /categories/ HTTP/1.1" 200 13607
+"GET /categories/ HTTP/1.1" 200 13607
+"GET /categories/ HTTP/1.1" 200 13612
+"GET /categories/ HTTP/1.1" 200 13318
+"GET /categories/ HTTP/1.1" 200 13350
+"GET /categories/ HTTP/1.1" 200 13362
+"GET /categories/ HTTP/1.1" 200 13349
+"GET /categories/ HTTP/1.1" 200 13375
+"GET /categories/ HTTP/1.1" 200 13375
+"GET /categories/ HTTP/1.1" 200 13378
+"GET /categories/ HTTP/1.1" 200 13377
+"GET /categories/ HTTP/1.1" 200 13377
+"GET /categories/ HTTP/1.1" 200 12632
+"GET /categories/ HTTP/1.1" 200 12619
+"GET /categories/ HTTP/1.1" 200 12615
+"GET /categories/ HTTP/1.1" 200 12620
+"GET /categories/ HTTP/1.1" 200 12699
+"GET /categories/ HTTP/1.1" 200 13314
+"GET /static/css/style.css HTTP/1.1" 200 1614
+"GET /static/js/bootstrap.js HTTP/1.1" 200 129775
+"GET /static/images/logo.png HTTP/1.1" 200 101487
+"GET /static/css/bootstrap-icons.css HTTP/1.1" 200 108463
+"GET /static/css/bootstrap.css HTTP/1.1" 200 203527
+"GET /static/js/main.js HTTP/1.1" 200 3531
+"GET /static/fonts/bootstrap-icons.woff2 HTTP/1.1" 200 130648
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2580
+"GET /categories/ HTTP/1.1" 200 13315
+"GET /categories/ HTTP/1.1" 200 13348
+"GET /categories/ HTTP/1.1" 200 13348
+"GET /categories/ HTTP/1.1" 200 13368
+"GET /static/css/bootstrap.css HTTP/1.1" 200 203527
+"GET /static/css/bootstrap-icons.css HTTP/1.1" 200 108463
+"GET /static/js/main.js HTTP/1.1" 200 3531
+"GET /static/css/style.css HTTP/1.1" 200 1614
+"GET /static/images/logo.png HTTP/1.1" 200 101487
+"GET /static/js/bootstrap.js HTTP/1.1" 200 129775
+"GET /static/fonts/bootstrap-icons.woff2 HTTP/1.1" 200 130648
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2580
+"GET /categories/ HTTP/1.1" 200 13489
+"GET /categories/? HTTP/1.1" 200 13489
+"GET /categories/? HTTP/1.1" 200 13489
+"GET /categories/? HTTP/1.1" 200 13489
+"GET /static/js/main.js HTTP/1.1" 304 0
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/? HTTP/1.1" 200 13492
+"GET /categories/? HTTP/1.1" 200 13492
+"GET /categories/? HTTP/1.1" 200 13058
+"GET /categories/? HTTP/1.1" 200 13058
+"GET /categories/? HTTP/1.1" 200 13058
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/? HTTP/1.1" 200 13059
+Forbidden (CSRF token missing.): /categories/
+"POST /categories/? HTTP/1.1" 403 2506
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/? HTTP/1.1" 200 13208
+"POST /categories/? HTTP/1.1" 200 13208
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /categories/? HTTP/1.1" 200 13208
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /categories/? HTTP/1.1" 200 13840
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"POST /categories/? HTTP/1.1" 200 13912
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"POST /categories/? HTTP/1.1" 200 13912
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"POST /categories/? HTTP/1.1" 200 13913
+"GET /static/js/bootstrap.js HTTP/1.1" 200 129775
+"GET /static/css/bootstrap.css HTTP/1.1" 200 203527
+"GET /static/images/logo.png HTTP/1.1" 200 101487
+"GET /static/css/style.css HTTP/1.1" 200 1614
+"GET /static/css/bootstrap-icons.css HTTP/1.1" 200 108463
+"GET /static/js/main.js HTTP/1.1" 200 3531
+"GET /static/fonts/bootstrap-icons.woff2 HTTP/1.1" 200 130648
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2580
+"POST /categories/? HTTP/1.1" 200 13950
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+Forbidden (Origin checking failed - null does not match any trusted origins.): /categories/
+"POST /categories/? HTTP/1.1" 403 2552
+Forbidden (Origin checking failed - null does not match any trusted origins.): /categories/
+"POST /categories/? HTTP/1.1" 403 2552
+Forbidden (Origin checking failed - null does not match any trusted origins.): /categories/
+"POST /categories/? HTTP/1.1" 403 2552
+Forbidden (Origin checking failed - null does not match any trusted origins.): /categories/
+"POST /categories/? HTTP/1.1" 403 2552
+Forbidden (Origin checking failed - null does not match any trusted origins.): /categories/
+"POST /categories/? HTTP/1.1" 403 2552
+Forbidden (Origin checking failed - null does not match any trusted origins.): /categories/
+"POST /categories/? HTTP/1.1" 403 2552
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - null does not match any trusted origins.): /categories/
+"POST /categories/? HTTP/1.1" 403 2552
+Forbidden (Origin checking failed - null does not match any trusted origins.): /categories/
+"POST /categories/? HTTP/1.1" 403 2552
+Forbidden (Origin checking failed - null does not match any trusted origins.): /categories/
+"POST /categories/? HTTP/1.1" 403 2552
+Forbidden (Origin checking failed - null does not match any trusted origins.): /categories/
+"POST /categories/? HTTP/1.1" 403 2552
+"GET / HTTP/1.1" 200 18860
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/ HTTP/1.1" 200 13950
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/ HTTP/1.1" 200 13958
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/ HTTP/1.1" 200 13958
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/ HTTP/1.1" 200 13950
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/ HTTP/1.1" 200 13949
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/ HTTP/1.1" 200 14047
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"POST /categories/ HTTP/1.1" 200 14047
+"GET /categories/ HTTP/1.1" 200 13965
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/ HTTP/1.1" 200 13969
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/ HTTP/1.1" 200 13969
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/ HTTP/1.1" 200 14064
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/ HTTP/1.1" 200 14047
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"POST /categories/ HTTP/1.1" 200 14047
+"GET /categories/ HTTP/1.1" 200 14047
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"POST /categories/ HTTP/1.1" 200 14047
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 14047
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"POST /categories/ HTTP/1.1" 200 14047
+"GET /categories/ HTTP/1.1" 200 14047
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 14047
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view core.views.categories didn't return an HttpResponse object. It returned None instead.
+"POST /categories/ HTTP/1.1" 500 70736
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 14047
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view core.views.categories didn't return an HttpResponse object. It returned None instead.
+"POST /categories/ HTTP/1.1" 500 70736
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 14047
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view core.views.categories didn't return an HttpResponse object. It returned None instead.
+"POST /categories/ HTTP/1.1" 500 70736
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 14047
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view core.views.categories didn't return an HttpResponse object. It returned None instead.
+"POST /categories/ HTTP/1.1" 500 70736
+"GET /categories/ HTTP/1.1" 200 14052
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"POST /categories/ HTTP/1.1" 200 107
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 14505
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"POST /categories/ HTTP/1.1" 200 107
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 14960
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+AttributeError: 'reversed' object has no attribute 'get'
+"POST /categories/ HTTP/1.1" 500 69270
+"GET /categories/ HTTP/1.1" 200 15412
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 15412
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"POST /categories/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 18958
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 15868
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"POST /categories/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 18958
+"GET /categories/ HTTP/1.1" 200 16318
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/ HTTP/1.1" 200 16318
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"POST /categories/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 18958
+"GET /categories/ HTTP/1.1" 200 16760
+"GET /categories/ HTTP/1.1" 200 16760
+"GET /categories/ HTTP/1.1" 200 16760
+"GET /categories/ HTTP/1.1" 200 16760
+"GET /categories/ HTTP/1.1" 200 16760
+"GET /categories/ HTTP/1.1" 200 16760
+"GET /categories/ HTTP/1.1" 200 16760
+"GET /categories/ HTTP/1.1" 200 16116
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /categories/ HTTP/1.1" 200 16103
+"GET /categories/ HTTP/1.1" 200 16107
+"GET /categories/ HTTP/1.1" 200 16556
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /categories/ HTTP/1.1" 200 16525
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 16990
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/?category_id=4&type=get_data HTTP/1.1" 200 16990
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 16990
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/?category_id=5&type=get_data HTTP/1.1" 200 57
+"GET /categories/?category_id=4&type=get_data HTTP/1.1" 200 64
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 17010
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/?category_id=4&type=get_data HTTP/1.1" 200 64
+"GET /categories/ HTTP/1.1" 200 17011
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/?category_id=3&type=get_data HTTP/1.1" 200 63
+"GET /categories/ HTTP/1.1" 200 17037
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/?category_id=4&type=get_data HTTP/1.1" 200 64
+"GET /categories/ HTTP/1.1" 200 17036
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/?category_id=3&type=get_data HTTP/1.1" 200 63
+"GET /categories/?category_id=5&type=get_data HTTP/1.1" 200 57
+"GET /categories/?category_id=6&type=get_data HTTP/1.1" 200 33
+"GET /categories/ HTTP/1.1" 200 17036
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 17765
+"GET /categories/?category_id=2&type=get_data HTTP/1.1" 200 66
+"POST /categories/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 18958
+"GET /categories/ HTTP/1.1" 200 17752
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 17752
+"GET /categories/?category_id=2&type=get_data HTTP/1.1" 200 23
+"POST /categories/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 18958
+"GET /categories/ HTTP/1.1" 200 17765
+"GET /categories/?category_id=2&type=get_data HTTP/1.1" 200 66
+"POST /categories/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 18958
+"GET /categories/ HTTP/1.1" 200 17765
+"GET /categories/?category_id=5&type=get_data HTTP/1.1" 200 57
+"POST /categories/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 18958
+"GET /categories/ HTTP/1.1" 200 17765
+"GET /categories/ HTTP/1.1" 200 17752
+"GET /categories/ HTTP/1.1" 200 17756
+"GET /categories/?category_id=6&type=get_data HTTP/1.1" 200 33
+"GET /categories/ HTTP/1.1" 200 17802
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/ HTTP/1.1" 200 18368
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 37, in categories
+    category = Category.objects.get(id=request.GET.get('category_id'))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+core.models.Category.DoesNotExist: Category matching query does not exist.
+"GET /categories/?type=get_data HTTP/1.1" 500 78655
+"GET /categories/ HTTP/1.1" 200 18519
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /categories/ HTTP/1.1" 200 18509
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /categories/?category_id=3&type=get_data HTTP/1.1" 200 63
+"GET /categories/?category_id=5&type=get_data HTTP/1.1" 200 57
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 18372
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+Forbidden (CSRF token missing.): /categories/
+"POST /categories/ HTTP/1.1" 403 2506
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 18371
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /categories/?category_id=5&type=get_data HTTP/1.1" 200 57
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 40, in categories
+    category = Category.objects.get(id=request.POST.get('category_id'))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+core.models.Category.DoesNotExist: Category matching query does not exist.
+"GET /categories/?category_id=5&type=delete HTTP/1.1" 500 78823
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 18371
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 40, in categories
+    category = Category.objects.get(id=request.POST.get('category_id'))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+core.models.Category.DoesNotExist: Category matching query does not exist.
+"GET /categories/?category_id=6&type=delete HTTP/1.1" 500 78823
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 18371
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/?category_id=6&type=delete HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 18958
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 40, in categories
+    category = Category.objects.get(id=request.GET.get('category_id'))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+core.models.Category.DoesNotExist: Category matching query does not exist.
+"GET /categories/?category_id=6&type=delete HTTP/1.1" 500 78791
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 40, in categories
+    category = Category.objects.get(id=request.GET.get('category_id'))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+core.models.Category.DoesNotExist: Category matching query does not exist.
+"GET /categories/?category_id=6&type=delete HTTP/1.1" 500 78791
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 40, in categories
+    category = Category.objects.get(id=request.GET.get('category_id'))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+core.models.Category.DoesNotExist: Category matching query does not exist.
+"GET /categories/?category_id=6&type=delete HTTP/1.1" 500 78791
+D:\Django projects\Restaurant POS\RestaurantPos\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 18123
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"POST /categories/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 18958
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 36, in categories
+    category = Category.objects.get(id=request.POST.get('category_id'))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+core.models.Category.DoesNotExist: Category matching query does not exist.
+"POST /categories/ HTTP/1.1" 500 79086
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 36, in categories
+    category = Category.objects.get(id=request.POST.get('category_id'))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+core.models.Category.DoesNotExist: Category matching query does not exist.
+"POST /categories/ HTTP/1.1" 500 79086
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 36, in categories
+    category = Category.objects.get(id=request.POST.get('category_id'))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+core.models.Category.DoesNotExist: Category matching query does not exist.
+"POST /categories/ HTTP/1.1" 500 79086
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 36, in categories
+    category = Category.objects.get(id=request.POST.get('category_id'))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+core.models.Category.DoesNotExist: Category matching query does not exist.
+"POST /categories/ HTTP/1.1" 500 79086
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 36, in categories
+    category = Category.objects.get(id=request.POST.get('category_id'))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+core.models.Category.DoesNotExist: Category matching query does not exist.
+"POST /categories/ HTTP/1.1" 500 79086
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 36, in categories
+    category = Category.objects.get(id=request.POST.get('category_id'))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+core.models.Category.DoesNotExist: Category matching query does not exist.
+"POST /categories/ HTTP/1.1" 500 79086
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 36, in categories
+    category = Category.objects.get(id=request.POST.get('category_id'))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+core.models.Category.DoesNotExist: Category matching query does not exist.
+"POST /categories/ HTTP/1.1" 500 79086
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 36, in categories
+    category = Category.objects.get(id=request.POST.get('category_id'))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+core.models.Category.DoesNotExist: Category matching query does not exist.
+"POST /categories/ HTTP/1.1" 500 79086
+"GET /categories/ HTTP/1.1" 200 17629
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/ HTTP/1.1" 200 17667
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"POST /categories/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 18958
+"GET /categories/ HTTP/1.1" 200 17170
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"POST /categories/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 18958
+"GET /categories/ HTTP/1.1" 200 16674
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"POST /categories/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 18958
+"GET /categories/ HTTP/1.1" 200 17171
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"POST /categories/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 18958
+"GET /categories/ HTTP/1.1" 200 17654
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/?category_id=8&type=get_data HTTP/1.1" 200 22
+"POST /categories/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 18958
+"GET /categories/ HTTP/1.1" 200 17654
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/?category_id=8&type=get_data HTTP/1.1" 200 22
+"POST /categories/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 18958
+"GET /categories/ HTTP/1.1" 200 17657
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"POST /categories/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 18958
+"GET /categories/ HTTP/1.1" 200 17171
+"GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+"GET /categories/ HTTP/1.1" 200 17171

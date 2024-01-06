@@ -1,0 +1,152 @@
+{% load static %}
+
+<nav class="navbar fixed-top bg-dark border-bottom border-body navbar-expand-xl bg-body-tertiary">
+    <div class="container-fluid ">
+      <a class="navbar-brand logo" href="./index.html">
+        <img src="{% static 'images/logo.png' %}" alt="logo" class="img-fluid" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-white d-flex justify-content-center align-items-center fs-4">
+          <i class="bi bi-list"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+          <!-- الأصناف -->
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" aria-current="page">
+              الأصناف
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li>
+                <a class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#groupModal"
+                  href="javascript:void(0)">إضافة المجموعة</a>
+              </li>
+
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#CategoryTableModal"
+                  href="#">الأصناف</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./payments.html ">المبيعات </a>
+          </li>
+          <!-- التقارير -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              التقارير
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">عرض القائمة</a></li>
+              <li><a class="dropdown-item" href="#">مصروفات اليوم</a></li>
+
+              <li><a class="dropdown-item" href="#">مبيعات الشيفت</a></li>
+
+              <li><a class="dropdown-item" href="#">مبيعات يوم معين</a></li>
+              <li><a class="dropdown-item" href="#">تقرير الدليفري</a></li>
+              <li><a class="dropdown-item" href="#">طباعة أخر فاتورة</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">إيرادات أخري</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              البنك
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">حسابات البنك</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              إستعلام
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li>
+                <a class="dropdown-item" href="#">الإستعلامات الشهرية</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">استعلام برقم الفاتورة</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">تقرير الفيزا</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">مبيعات صنف</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              الموظفين
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li>
+                <a class="dropdown-item" href="#">إدخال بيانات</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">تسجيل حافز</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">تسجيل مرتب</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">تسجيل خصم</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">صافي المرتب</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">دليل الهاتف</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              المستخدمون
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li>
+                <a class="dropdown-item" href="#">تغيير المستخدم الحالى</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">أضف مستخدم جديد</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">حذف مستخدم</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">تغيير كلمة السر</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">منظم مواعيد</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">إعدادات</a>
+          </li>
+          <li class="nav-item dropdown dropstart">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">مساعدة</a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li>
+                <a class="dropdown-item" href="#">الطابعة الإفتراضية</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">مسار النسخة الإحتياطية</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

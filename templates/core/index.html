@@ -1,0 +1,274 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="boxes">
+</div>
+<div class="row align-baseline container-fluid">
+  <div class="col-12 col-md-5 col-lg-3  shadow-lg py-3">
+    <div class="form-group   mb-2">
+      <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+      <datalist id="datalistOptions">
+        <option value="San Francisco"></option>
+        <option value="New York"></option>
+        <option value="Seattle"></option>
+        <option value="Los Angeles"></option>
+        <option value="Chicago"></option>
+      </datalist>
+    </div>
+    <div class="form-group has-search position-relative  mb-2">
+      <span class="bi bi-search form-control-feedback"></span>
+
+      <input type="text" class="form-control w-100" placeholder="Search">
+    </div>
+    <div class="categories row p-2">
+      <div class="col-6 ">
+        <div data-code="141"
+          class=" shadow-sm mb-2  p-2  text-center d-flex align-items-center flex-column justify-content-center">
+          <h4>إسم الصنف</h4>
+          <p>24$</p>
+        </div>
+      </div>
+      <div class="col-6 ">
+        <div data-code="145"
+          class=" shadow-sm mb-2  p-2 text-center  d-flex align-items-center flex-column justify-content-center">
+          <h4 class="">إسم الصنف</h4>
+          <p>25$</p>
+        </div>
+      </div>
+      <div class="col-6 ">
+        <div data-code="1444"
+          class=" shadow-sm mb-2  p-2  text-center d-flex align-items-center flex-column justify-content-center">
+          <h4>إسم الصنف</h4>
+          <p>20$</p>
+        </div>
+      </div>
+
+
+    </div>
+    <!-- <div class="row">
+      <div class="col-sm-12 col-lg-5">
+        <select class="form-select  mb-3" aria-label="Large select example">
+          <option disabled selected>Group</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="col-sm-12 col-lg-5">
+        <select class="form-select  mb-3" aria-label="Large select example">
+          <option disabled selected>Item</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="col-sm-12 col-lg-2 row align-items-start gap-3 flex-nowrap">
+        <button type="button" class="col-6 btn btn-primary">
+          الفاتورة
+        </button>
+        <button type="button" class="col-6 btn btn-danger">مسح</button>
+      </div>
+    </div> -->
+  </div>
+  <div class="col-12 col-md-7 col-lg-9 ">
+    <div class="table-responsive   container-fluid px-4" style="min-height: 500px; overflow-y:auto;">
+      <table class="table  py-3 posTable">
+        <thead class="table-dark ">
+          <tr>
+            <th scope="col">الكود</th>
+            <th scope="col"> إسم الصنف </th>
+            <th scope="col">السعر</th>
+            <th scope="col">الكمية</th>
+            <th scope="col">الإجراءات</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <tr>
+            <td scope="col">
+              <input type="text" class="form-control" id="code" placeholder="" readonly />
+            </td>
+            <td scope="col">
+              <input type="text" class="form-control" id="type" placeholder="" readonly />
+            </td>
+            <td scope="col">
+              <input type="number" class="form-control" id="price" placeholder="" readonly />
+            </td>
+            <td scope="col">
+              <input type="number" min="1" class="form-control" id="quantity" placeholder="" />
+            </td>
+
+            <td scope="col">
+
+              <button class="btn btn-danger"><span class="bi bi-trash"></span></button>
+            </td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row col-12 my-4 py-4 flex-wrap shadow-lg">
+    <div class="col d-flex align-items-center gap-3 flex-grow-1 flex-shrink-0 mb-2" style="min-width:200px;">
+      <div class="">
+        <input type="radio" class="btn-check" id="btn-check-outlined" value="del" autocomplete="off" name="opt">
+        <label class="btn btn-outline-primary" for="btn-check-outlined">دليفري</label>
+      </div>
+      <div class="">
+
+        <input type="radio" class="btn-check" id="btn-check-outlined1" value="hall" autocomplete="off" name="opt">
+        <label class="btn btn-outline-primary" for="btn-check-outlined1">صالة</label>
+      </div>
+    </div>
+    <div class="col d-flex align-items-center flex-grow-1 flex-shrink-0 mb-2" style="min-width:200px;">
+      <select class="form-select customer-disabled" aria-label="Default select example" disabled="true">
+        <option selected>إسم العميل</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+
+    </div>
+    <div class="col d-flex align-items-center flex-grow-1 flex-shrink-0 mb-2" style="min-width:200px;">
+
+      <input class="form-control  customer-disabled" type="text" placeholder="ٍسعر التوصيل"
+        aria-label="Disabled input example" disabled>
+    </div>
+    <div class="col d-flex align-items-center flex-grow-1 flex-shrink-0 mb-2" style="min-width:200px;">
+
+      <input class="form-control  " id="discount" type="number" min="0" max="1" step=".1" placeholder="ٍنسبة الخصم"
+        aria-label=" input example">
+    </div>
+    <!-- <div class="col d-flex align-items-center flex-grow-1 flex-shrink-0 mb-2" style="min-width:200px;">
+
+      <input class="form-control  " type="number" placeholder="السعر" aria-label=" input example">
+    </div> -->
+    <div class="col d-flex align-items-center flex-grow-1 flex-shrink-0 mb-2" style="min-width:200px;">
+
+      <input class="form-control  " id="total" type="number" placeholder="الإجمالي" aria-label=" input example"
+        readonly>
+    </div>
+  </div>
+</div>
+
+<!-- <form action="" class="custom-shadow container-fluid">
+  <div class="buttons-group shadow-lg container-fluid py-3 my-2">
+    <div class="row gap-4 flex-wrap">
+      <button type="button" class="btn btn-primary col">
+        طباعة &nbsp; f1
+      </button>
+      <button type="button" class="btn btn-secondary col">
+        دفع &nbsp; f2
+      </button>
+      <button type="button" class="btn btn-danger col">
+        حذف &nbsp; f3
+      </button>
+      <button type="button" class="btn btn-success col">
+        خدمة &nbsp; f4
+      </button>
+      <button type="button" class="btn btn-warning col">
+        توصيل &nbsp; f5
+      </button>
+      <button type="button" class="btn btn-info col">
+        حفظ &nbsp; Enter
+      </button>
+      <button type="button" class="btn btn-light col">
+        جديد &nbsp; f7
+      </button>
+      <button type="button" class="btn btn-dark col">
+        تحويل &nbsp; f8
+      </button>
+    </div>
+  </div>
+  <div class="shadow-lg container-fluid my-2 py-3">
+    <div class="row">
+      <div class="mb-3 col-6 col-md-4 col-lg-3 col-xl-2 col-6 col-md-4 col-lg-3 col-xl-2">
+        <label for="invoiceNumber" class="form-label">رقم الفاتورة</label>
+        <input type="text" class="form-control form-control-lg" id="invoiceNumber" />
+      </div>
+      <div class="mb-3 col-6 col-md-4 col-lg-3 col-xl-2">
+        <label for="deliveryEmployee" class="form-label">موظف التوصيل</label>
+        <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="deliveryEmployee">
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="mb-3 col-6 col-md-4 col-lg-3 col-xl-2">
+        <label for="tableNum" class="form-label">رقم المائدة</label>
+        <input type="text" class="form-control form-control-lg" id="tableNum" />
+      </div>
+      <div class="mb-3 col-6 col-md-4 col-lg-3 col-xl-2">
+        <label for="categoryCode" class="form-label">كود الصنف </label>
+        <input type="text" class="form-control form-control-lg" id="categoryCode" />
+      </div>
+      <div class="mb-3 col-6 col-md-4 col-lg-3 col-xl-2">
+        <label for="size" class="form-label">الحجم</label>
+        <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="size">
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="row">
+        <div class="mb-3 col-12 col-lg-6">
+          <label for="category" class="form-label">الصنف</label>
+          <select class="form-select mb-3" aria-label="Large select example" id="category">
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="mb-3 col-12 col-lg-6">
+          <label for="tab" class="form-label">التبويب</label>
+          <select class="form-select mb-3" aria-label="Large select example" id="tab">
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="table-responsive container-fluid">
+      <table class="table shadow-lg py-3">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">الإجمالي</th>
+            <th scope="col">الكمية</th>
+            <th scope="col">السعر</th>
+            <th scope="col">الصنف</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="col">35</td>
+            <td scope="col">1</td>
+            <td scope="col">35</td>
+            <td scope="col">أوريو M</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</form> -->
+
+<!-- Add Group Modal -->
+<div class="modal fade" id="groupModal" tabindex="-1" aria-labelledby="groupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="groupModalLabel">إضافة المجموعة</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input class="form-control form-control-lg" type="text" placeholder="إسم المجموعة"
+          aria-label=".form-control-lg example" />
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %} 
