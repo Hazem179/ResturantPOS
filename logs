@@ -1032,3 +1032,194 @@ core.models.Category.DoesNotExist: Category matching query does not exist.
 "GET /static/css/bootstrap.rtl.min.css.map HTTP/1.1" 404 1846
 "GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
 "GET /categories/ HTTP/1.1" 200 17171
+Watching for file changes with StatReloader
+"GET /categories/ HTTP/1.1" 200 12440
+"GET /categories/ HTTP/1.1" 200 12440
+"GET /categories/ HTTP/1.1" 200 12440
+"GET /categories/ HTTP/1.1" 200 12440
+"GET /categories/ HTTP/1.1" 200 12440
+"GET /categories/ HTTP/1.1" 200 12565
+"GET /categories/ HTTP/1.1" 200 12565
+"GET /categories/ HTTP/1.1" 200 12795
+"GET /categories/ HTTP/1.1" 200 12795
+"GET /categories/ HTTP/1.1" 200 11918
+"GET /categories/ HTTP/1.1" 200 12802
+"GET /categories/ HTTP/1.1" 200 11952
+"GET /categories/ HTTP/1.1" 200 11945
+"GET /categories/ HTTP/1.1" 200 12050
+"GET /categories/ HTTP/1.1" 200 12161
+"GET /categories/ HTTP/1.1" 200 12055
+"GET /categories/ HTTP/1.1" 200 12299
+"GET /categories/ HTTP/1.1" 200 12298
+"GET /categories/ HTTP/1.1" 200 12298
+"GET /categories/ HTTP/1.1" 200 12414
+"GET /categories/ HTTP/1.1" 200 12414
+"GET /categories/ HTTP/1.1" 200 12359
+"GET /categories/ HTTP/1.1" 200 12359
+"GET /categories/ HTTP/1.1" 200 12359
+"GET /categories/ HTTP/1.1" 200 12359
+"GET /categories/ HTTP/1.1" 200 12359
+"GET /categories/ HTTP/1.1" 200 12271
+"GET /categories/ HTTP/1.1" 200 12416
+"GET /categories/ HTTP/1.1" 200 12470
+"GET /categories/ HTTP/1.1" 200 12470
+"GET /categories/ HTTP/1.1" 200 12470
+"GET /categories/ HTTP/1.1" 200 12470
+"GET /categories/ HTTP/1.1" 200 12361
+"GET /categories/ HTTP/1.1" 200 12361
+"GET /categories/ HTTP/1.1" 200 12404
+"GET /categories/ HTTP/1.1" 200 12454
+"GET /categories/ HTTP/1.1" 200 12425
+"GET /categories/ HTTP/1.1" 200 12454
+"GET /categories/ HTTP/1.1" 200 12445
+"GET /categories/ HTTP/1.1" 200 12439
+"GET /categories/ HTTP/1.1" 200 12434
+"GET /categories/ HTTP/1.1" 200 12439
+"GET /categories/ HTTP/1.1" 200 12431
+"GET /categories/ HTTP/1.1" 200 12439
+"GET /categories/ HTTP/1.1" 200 12533
+"GET /categories/ HTTP/1.1" 200 12533
+"GET /categories/ HTTP/1.1" 200 13504
+"GET /categories/ HTTP/1.1" 200 12955
+"GET /categories/ HTTP/1.1" 200 12622
+"GET /categories/ HTTP/1.1" 200 12467
+"GET /categories/ HTTP/1.1" 200 12414
+"GET /categories/ HTTP/1.1" 200 12415
+"GET /categories/ HTTP/1.1" 200 12469
+"GET /categories/ HTTP/1.1" 200 12415
+"GET /categories/ HTTP/1.1" 200 12420
+"GET /categories/ HTTP/1.1" 200 12419
+"GET /categories/ HTTP/1.1" 200 12414
+"GET /categories/ HTTP/1.1" 200 12414
+"GET /categories/ HTTP/1.1" 200 12415
+"GET /categories/ HTTP/1.1" 200 12414
+"GET /categories/ HTTP/1.1" 200 12410
+"GET /categories/ HTTP/1.1" 200 12410
+"GET /categories/ HTTP/1.1" 200 12405
+"GET /categories/ HTTP/1.1" 200 12410
+"GET /categories/ HTTP/1.1" 200 12409
+"GET /categories/ HTTP/1.1" 200 12409
+"GET /categories/ HTTP/1.1" 200 12409
+"POST /categories/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 13837
+"GET /categories/ HTTP/1.1" 200 12912
+"GET /categories/?category_id=9&type=get_data HTTP/1.1" 200 82
+"POST /categories/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 13837
+"GET /categories/ HTTP/1.1" 200 12921
+"POST /categories/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 13837
+"GET /categories/ HTTP/1.1" 200 12409
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 47, in categories
+    return render(request, 'core/categories.html',context=context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+"GET /categories/ HTTP/1.1" 500 174369
+Internal Server Error: /categories/
+Traceback (most recent call last):
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django projects\Restaurant POS\RestaurantPos\core\views.py", line 47, in categories
+    return render(request, 'core/categories.html',context=context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\Django projects\Restaurant POS\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+"GET /categories/ HTTP/1.1" 500 174344
+"GET /categories/ HTTP/1.1" 200 12409
+"GET / HTTP/1.1" 200 13837
+"GET / HTTP/1.1" 200 13837
+"GET / HTTP/1.1" 200 13837
+"GET / HTTP/1.1" 200 13837
