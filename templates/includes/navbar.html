@@ -1,7 +1,7 @@
 {% load static %}
 
-<nav class="navbar fixed-top bg-dark border-bottom border-body navbar-expand-xl bg-body-tertiary">
-    <div class="container-fluid ">
+<nav class="navbar navbar-expand-xl navbar-dark fixed-top bg-dark border-bottom border-body">
+  <div class="container-fluid ">
       <a class="navbar-brand logo" href="./index.html">
         <img src="{% static 'images/logo.png' %}" alt="logo" class="img-fluid" />
       </a>
@@ -24,10 +24,10 @@
             </li>
           <!-- الأصناف -->
           <li class="nav-item">
-            <a class="nav-link" href="#">الأصناف</a>
+            <a class="nav-link" href="{% url 'core:products' %}">الأصناف</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">الفئات</a>
+            <a class="nav-link" href="{% url 'core:categories' %}">الفئات</a>
           </li>
         </ul>
       </div>

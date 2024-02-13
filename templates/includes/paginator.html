@@ -1,0 +1,33 @@
+{% load myTags %}
+<div class="row mt-4">
+    <div class="col-sm-6">
+    </div>
+    <div class="col-sm-6">
+        <div class="float-sm-end">
+            <ul class="pagination pagination-rounded justify-content-center mt-4">
+                <li class="page-item {% if current_page|into_int == 1|into_int %}disabled{% endif %}">
+                    <a class="page-link"
+                        href="{% if '?search' in  request.get_full_path%}?search={{request.GET.search}}&page={{current_page|sub:1}}{% else %}?page={{current_page|sub:1}}{% endif %}">
+                        <i class="mdi mdi-chevron-right">
+                        </i>
+                    </a>
+                </li>
+                {% for x in current_page|my_pages:pages %}
+                <li class="page-item {% if  x|into_str == current_page|into_str %}active{% endif %}">
+                    <a class="page-link"
+                        href="{% if '?search' in  request.get_full_path%}?search={{request.GET.search}}&page={{x}}{% else %}?page={{x}}{% endif %}">
+                        {{x}}
+                    </a>
+                </li>
+                {% endfor %}
+                <li class="page-item {% if current_page|add:1 > pages|into_int %}disabled{% endif %}">
+                    <a class="page-link"
+                        href="{% if '?search' in  request.get_full_path%}?search={{request.GET.search}}&page={{current_page|add:1}}{% else %}?page={{current_page|add:1}}{% endif %}">
+                        <i class="mdi mdi-chevron-left">
+                        </i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

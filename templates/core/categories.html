@@ -1,18 +1,18 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-<div class="py-5 row">
+<div class="py-5 row content-container">
 <div class="col-12 ms-2 me-2">
-  <h3 class="text-center fw-bold fs-4 my-4">الأصناف</h3>
-  <div class="row align-items-center  shadow">
+  <div class="row align-items-center shadow" style="padding-top: 100px;">
+    <form class="row align-items-center" action="{% url 'core:categories' %}" id = "search-form" method="get">
     <div class="form-group has-search position-relative col-10">
       <span class="bi bi-search form-control-feedback"></span>
-      <input type="text" class="form-control " placeholder="بحث">
+      <input type="text" class="form-control " placeholder="بحث" name = "search" value="{{request.GET.search}}">
     </div>
     <div class="col-2">
-      <button class="btn btn-primary w-75">بحث</button>
+      <button class="btn btn-primary w-75" type="submit" form="search-form" >بحث</button>
     </div>
-
+  </form>
   </div>
   <div class="table-responsive ">
     <div class="btn btn-success d-inline-flex gap-2 my-4" data-bs-toggle="modal" data-bs-target="#AddCategoryModal">
@@ -44,16 +44,9 @@
         {% endfor %}
       </tbody>
     </table>
-    <nav aria-label="Page navigation example" dir="rtl">
-      <ul class="pagination justify-content-center my-5">
-        <li class="page-item"><a class="page-link" href="#">السابق</a></li>
-        <li class="page-item active"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item"><a class="page-link" href="#">التالي</a></li>
-      </ul>
-    </nav>
   </div>
+  {% include 'includes/paginator.html' %}
+
 </div>
 </div>
 <!-- Add Category Modal -->

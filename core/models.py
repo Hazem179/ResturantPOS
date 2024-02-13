@@ -16,7 +16,7 @@ class Category(models.Model):
     def __str__(self):
         return self.name
 
-SIZES = (('1','Medium'),('2','Large'))
+SIZES = (('1','M'),('2','L'))
 class Product(models.Model):
     name = models.CharField(max_length=200, null=True)
     price = models.FloatField()
